@@ -936,4 +936,11 @@ a:focus {
     margin: 0; /* Optional, to remove any default margins */
 }
 
+@media (max-width: 768px) {
+  img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
